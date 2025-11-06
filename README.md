@@ -23,6 +23,8 @@ la misma información.
 * La primera línea del fichero XML tiene que contener esta información (*obligatoria en los ficheros xml*):
   ```xml
   <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+  <root_tag>
+    </root_tag>
   ```
 * La lista debe tener un nodo raíz llamado `shoppinglist`
 * Del nodo `shoppinglist` debe colgar otro nodo llamado `items`, del que a su vez cuelgan múltiples nodos `item`
